@@ -615,3 +615,18 @@ pre[class*='language-'] {
 .token.entity {
 	cursor: help;
 }
+
+#sharing {
+  a.no-underline {
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    margin: 0;
+  }
+  a.no-underline:hover {
+    background-color: transparent;
+  }
+  a {
+    font-size: 30px;
+  }
+}
